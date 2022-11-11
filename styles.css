@@ -179,17 +179,21 @@ svg{
   }
 
 .rating_wrapper{
-   
+  
 }
 
 .stars_wrapper{
-
+  display: flex;
+  align-items: flex-end;
+  box-sizing: border-box;
+  align-items: center;
 }
 
 .sklad_wrapper{
     font-size: 14px;
-    position: absolute;
-    right: 30px;
+    position: relative;
+    display: block;
+   
 }
 
 .sklad_pocet::before {
@@ -210,4 +214,11 @@ svg{
   width: calc(100% + 10px);
   display: flex;
   margin-top: 20px;
+}
+
+.fa-xs {
+  align-items: center !important;
+  font-size: .75em !important;
+  line-height: 1 !important;
+  
 }
